@@ -92,3 +92,17 @@ plt.show()
 # Embarked V/s Fare 
 sns.catplot(x="Embarked",y="Fare",hue="Sex",kind="violin",data=titanic_dataset)
 plt.show()
+
+# Insights From the data analysis
+print("\n\nInsights from the data analysis:\n")
+print("A total of 891 passenegers were traveling in titanic")
+print("559 passengers died while only 332 survived")
+print("Male Passengers were more than Female passenegers")
+print("Females survived more than Males")
+print("Higher Passeneger class had more chances of survival")
+print("passengers embarked on Port C had the highest chances of survival")
+print("People traveling Alone had the lesser chances of survival than people travelling in family")
+print("People of family of size 4 had the highest chances of survival")
+print("Children had the higher chances of survival than the adults and Senior citizens")
+print("Cabin Information was missing for the majority of cases which resulted in the deletion of the column")
+print("Average Fare was: $32.20")
